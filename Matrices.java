@@ -1,10 +1,8 @@
-/**
- * Matrices
- */
+// Matrices
+
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.PrintStream;
 
 public class Matrices {
     public static BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
@@ -53,5 +51,9 @@ public class Matrices {
                 numero++;
             }
         }
+        // Imprimiendo la matriz2
+        System.out.println("Valores de la matriz irregular:");
+        imprimirMatriz(matriz2);
         }
     }
+
